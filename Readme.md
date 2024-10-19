@@ -1,7 +1,7 @@
-# TicketService Application
+# Cinema Ticket Booking System
 
 ## Overview
-The `TicketService` application manages the process of purchasing tickets for events, ensuring that ticket purchases comply with specific business rules, calculating costs, and interacting with third-party services for payments and seat reservations. It is designed to be reusable and integrates with payment gateways and seat booking services.
+The `Cinema Ticket Booking` application manages the process of purchasing tickets for events, ensuring that ticket purchases comply with specific business rules, calculating costs, and interacting with third-party services for payments and seat reservations. It is designed to be reusable and integrates with payment gateways and seat booking services.
 
 ## Features
 - **Validation**: Ensures that the account ID is valid and that ticket purchase requests adhere to business rules (e.g., at least one adult ticket must be purchased if any child or infant tickets are being bought).
@@ -10,9 +10,9 @@ The `TicketService` application manages the process of purchasing tickets for ev
 - **Extensible**: The ticket prices and rules can be adjusted via configuration files like `Constants.js`.
 
 ## Prerequisites
-- **Node.js**: Make sure Node.js is installed (version 14 or above is recommended).
+- **Node.js**: Make sure Node.js is installed (version 20 or above is recommended).
 - **npm**: The package manager that comes with Node.js.
-- **External Libraries**: This project relies on several npm packages like `moment` for date handling and `random` for generating random values (if needed).
+- **External Libraries**: This project relies on several npm packages like `jest` for testing, `eslint` for linting and `babel` for transpiling.
 
 ## Getting Started
 
@@ -87,10 +87,9 @@ Contributions are welcome! Please follow these steps:
 5. Open a pull request.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
-For any questions or support, please contact [your-email@example.com].
+For any questions or support, please contact [john.dianus@gmail.com].
 
 ## Acknowledgments
 - **Jest** for providing a great testing framework.
